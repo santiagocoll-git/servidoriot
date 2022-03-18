@@ -1,0 +1,23 @@
+div.bloque1 {
+    background-color: rgb(207, 202, 202);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-spacing: 8px 2px;
+    padding: 5px 5px 40px 5px ;
+    border: rgb(179, 166, 166) 2px solid;
+    border-radius:5px ;
+    /*width: fit-content;*/
+    color:white;
+    
+}
+.alinear_boton{
+    display: block;
+    clear:both;
+    float:right;
+}
+
+button.enviar {
+    margin-top: 10px;
+    display: inline-block;
+    right: 100%;
+    /*width: 100%;*/
+}
