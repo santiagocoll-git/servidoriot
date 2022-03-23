@@ -18,7 +18,7 @@ $conn = new conexion();
  $query = " UPDATE device_state SET temperatura = $temperature, humedad = $humidity WHERE iddevice = '$device'";
  $update = mysqli_query($conn->conectardb(),$query);
 
- $query = "INSERT INTO device_historic(idDevice,variable, valor, fecha) VALUES('$device', 'temperature','$temperature', NOW())";
+ $query = "INSERT INTO device_historic(idDevice, variable, valor, fecha) VALUES ('$device', 'temperature','$temperature', NOW())";
  $insert = mysqli_query($conn->conectardb(),$query);
 
  $query = "INSERT INTO device_historic(idDevice,variable, valor, fecha) VALUES('$device', 'humidity','$humidity', NOW())";
